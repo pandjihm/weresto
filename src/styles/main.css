@@ -166,7 +166,7 @@ Third Section
     padding: 6em 0;
 }
 
-.p-judul {
+.h4-judul {
     color: #F0F0F0;
     font-weight: 700;
     margin: 1em 0;
@@ -199,4 +199,77 @@ Forth Section
     flex-direction: row;
     justify-content: space-around;
     padding: 6em;
+}
+
+/*
+Fifth Section
+*/
+
+.sec-fifth {
+    background-color: #EFEFEF;
+    padding: 3em 0;
+}
+
+.flex-fifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6em 6em;
+}
+
+.h4-judul-black {
+    color: #212121;
+    font-weight: 700;
+    margin: 2em 1.3em 1.3em 1.3em;
+}
+
+.p-fifth {
+    line-height: 1.5em;
+    margin: 1em 1.3em;
+}
+
+.card-fifth {
+    background-color: #FFF;
+    margin: 0 2em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.012);
+}
+
+.icon-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.map-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 1em;
+}
+
+.p-margin {
+    margin: 0 .5em;
+    font-weight: 600;
+}
+
+/*
+Footer
+*/
+
+.main-footer {
+    background-color: #212121;
+}
+
+.p-footer {
+    color: #F0F0F0;
+    text-align: center;
+    padding: 2em;
 }
