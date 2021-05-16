@@ -132,7 +132,7 @@ Second Section
 
 .h2-judul-second {
     font-family: "Newsreader", serif;
-    font-size: 2em;
+    font-size: 2.5em;
     color: #212121;
     margin: .5em 0 0.8em 0;
 }
@@ -146,6 +146,33 @@ Third Section
 */
 
 .sec-third {
+    background-color: #212121;
+    padding: 6em 0;
+}
+
+.h2-judul-third {
+    font-family: "Newsreader", serif;
+    font-size: 2.5em;
+    color: #F0F0F0;
+    margin: .5em 0 0.8em 0;
+    text-align: center;
+}
+
+.flex-third {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 6em 6em;
+}
+
+.p-judul {
+    color: #F0F0F0;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.p-third {
+    color: #F0F0F0;
+    margin: 1em 0;
+    line-height: 1.5em;
 }
