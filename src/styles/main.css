@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body, html {
     padding: 0;
     margin: 0;
@@ -228,15 +232,7 @@ Third Section
     grid-template-columns: 33% 33% 33%;
 }
 
-.circle {
-    margin: 0 3em;
-}
-
-.square {
-    margin: 0 3em;
-}
-
-.square45 {
+.icon-fourth {
     margin: 0 3em;
 }
 
@@ -273,6 +269,14 @@ Forth Section
     grid-template-columns: 50% 50%;
     align-content: top;
     padding: 3em;
+}
+
+.img-daily {
+    margin-left: 15em;
+}
+
+.img-tech {
+    margin: 2em 0 0 2em;
 }
 
 /*
@@ -428,21 +432,20 @@ Tablet Third Section
         align-items: top;
     }
 
-    .circle {
+    .icon-fourth {
         padding: 0 1em;
         margin: 0;
     }
-    
-    .square {
-        padding: 0 1em;
-        margin: 0;
-    }
-    
-    .square45 {
-        padding: 0 1em;
-        margin: 0;
+
+/*
+Tablet Third Section
+*/
+
+    .img-daily {
+        margin: 0 0 0 1em;
     }
 }
+
 /* 
 Mobile
 */
