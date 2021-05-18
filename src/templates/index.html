@@ -19,9 +19,15 @@
             <nav id="drawer" class="main-nav">
                 <ul class="main-nav-list">
                     <li class="main-nav-item"><a href="index.html">Home</a></li>
-                    <li class="main-nav-item"><a href="#">About Us</a></li>
                     <li class="main-nav-item"><a href="#">Favorite</a></li>
+                    <li class="main-nav-item"><a href="https://github.com/pandjihm">About Us</a></li>
                 </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
             </nav>
         </div>
     </header>
@@ -40,15 +46,15 @@
 
     <!-- Start: Second Section -->
     <section class="sec-second">
-        <div>
-            <img src="../public/images/heros/ourstory.png" width="70%" alt="Enjoying Food">
+        <div class="container-img-second">
+            <img class="img-sec-second" src="../public/images/heros/ourstory.png" alt="Enjoying Food">
         </div>
-        <div>
+        <div class="konten-second">
             <h2 class="h2-judul-second">
                 Our Story
             </h2>
             <p class="p-second">
-                We believe that every person go to the restaurant</br>not only enjoying their food. How cozy the place,</br>warm sensation, good services, you name it. That’s</br>how the people want to experience. And WeResto</br>will fullfil your needs.
+                We believe that every person go to the restaurant not only enjoying their food. How cozy the place, warm sensation, good services, you name it. That’s how the people want to experience. And WeResto will fullfil your needs.
             </p>
             <img src="../public/images/heros/appstore.png" width="50%" alt="">
         </div>
@@ -60,26 +66,26 @@
         <h2 class="h2-judul-third">
             What We Offer
         </h2>
-        <div class="flex-third">
-            <div>
+        <div class="grid-third">
+            <div class="circle">
                 <img src="../public/images/heros/circle.svg" width="50vh" alt="optimize">
                 <h4 class="h4-judul">
                     Optimize your search
                 </h4>
                 <p class="p-third">
-                    Optimize your search based on </br> what you like the most
+                    Optimize your search based on what you like the most
                 </p>
             </div>
-            <div>
+            <div class="square">
                 <img src="../public/images/heros/square.svg" width="50vh" alt="best">
                 <h4 class="h4-judul">
                     Best Restaurant
                 </h4>
                 <p class="p-third">
-                    We only give you the best </br> and high rating restaurant
+                    We only give you the best and high rating restaurant
                 </p>
             </div>
-        <div>
+        <div class="square45">
             <img src="../public/images/heros/square45.svg" width="50vh" alt="honest">
             <h4 class="h4-judul">
                 Honest Review
@@ -96,8 +102,8 @@
         <h2 class="h2-judul-fourth">
             Media Partner
         </h2>
-        <div class="flex-fourth">
-            <img src="../public/images/heros/tech-in-asia.svg" width="25%" alt="tech in asia">
+        <div class="grid-fourth">
+            <img src="../public/images/heros/tech-in-asia.svg" alt="tech in asia">
             <img src="../public/images/heros/dailysocial.png" alt="daily social">
         </div>
     </section>
@@ -183,5 +189,6 @@
             Copyright © 2021 - WeResto
         </p>
     </footer>
+    <script src="../scripts/toggle.js"></script>
 </body>
 </html>
