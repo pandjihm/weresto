@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../styles/main.css"> 
 </head>
 <body>
+    <a href="#maincontent" class="skip-link">Main Content</a>
     <!-- Start: Header -->
     <header class="main-header">
         <div class="container">
@@ -38,25 +39,27 @@
         <div class="bg-img">
                 <div class="first">                    
                     <h1 class="second">Experience Iconic Restaurant</h1>
-                    <button class="tombol" onclick="sec-second">Learn more</button>                    
+                    <a href="#story">
+                        <button class="tombol">Learn more</button>
+                    </a>                   
                 </div>
         </div>
     </section>
     <!-- End: First Section -->
 
     <!-- Start: Second Section -->
-    <section class="sec-second">
+    <section id="story" class="sec-second">
         <div class="container-img-second">
             <img class="img-sec-second" src="../public/images/heros/ourstory.png" alt="woman enjoying food">
         </div>
-        <div class="konten-second">
+        <div  id="maincontent" class="konten-second">
             <h2 class="h2-judul-second">
                 Our Story
             </h2>
             <p class="p-second">
                 We believe that every person go to the restaurant not only enjoying their food. How cozy the place, warm sensation, good services, you name it. That’s how the people want to experience. And WeResto will fullfil your needs.
             </p>
-            <img src="../public/images/heros/appstore.png" width="50%" alt="apps store">
+            <img class="appstore" src="../public/images/heros/appstore.png" alt="our apps also available on the appstore">
         </div>
     </section>
     <!-- End: Second Section -->
@@ -67,8 +70,8 @@
             What We Offer
         </h2>
         <div class="grid-third">
-            <div class="icon-fourth">
-                <img src="../public/images/heros/circle.svg" width="50vh" alt="optimize">
+            <div class="icon-third">
+                <img src="../public/images/heros/circle.svg" width="50vh" alt="icon optimize">
                 <h4 class="h4-judul">
                     Optimize your search
                 </h4>
@@ -76,8 +79,8 @@
                     Optimize your search based on what you like the most
                 </p>
             </div>
-            <div class="icon-fourth">
-                <img src="../public/images/heros/square.svg" width="50vh" alt="best">
+            <div class="icon-third">
+                <img src="../public/images/heros/square.svg" width="50vh" alt="icon best">
                 <h4 class="h4-judul">
                     Best Restaurant
                 </h4>
@@ -85,8 +88,8 @@
                     We only give you the best and high rating restaurant
                 </p>
             </div>
-        <div class="icon-fourth">
-            <img src="../public/images/heros/square45.svg" width="50vh" alt="honest">
+        <div class="icon-third">
+            <img src="../public/images/heros/square45.svg" width="50vh" alt="icon honest">
             <h4 class="h4-judul">
                 Honest Review
             </h4>
@@ -104,10 +107,10 @@
         </h2>
         <div class="grid-fourth">
             <div class="img-daily">
-                <img src="../public/images/heros/dailysocial.png" alt="daily social">
+                <img src="../public/images/heros/dailysocial.png" alt="logo daily social">
             </div>
             <div class="img-tech">
-                <img src="../public/images/heros/techinasia.svg" alt="tech in asia">
+                <img src="../public/images/heros/techinasia.svg" alt="logo tech in asia">
             </div>
         </div>
     </section>
@@ -118,10 +121,10 @@
         <h2 class="h2-judul-fourth">
             Explore Restaurant
         </h2>
-        <div class="flex-fifth">
+        <div class="grid-fifth">
             <!-- Start: First Card -->
             <div class="card-fifth">
-                <img src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/29" alt="pangsit express">
+                <img class="img-fifth" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/29" alt="restaurant pangsit express">
                 <h4 class="h4-judul-black">
                     Pangsit Express
                 </h4>
@@ -143,7 +146,7 @@
 
             <!-- Start: Second Card -->
             <div class="card-fifth">
-                <img src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/38" alt="ducky duck">
+                <img class="img-fifth" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/38" alt="restaurant ducky duck">
                 <h4 class="h4-judul-black">
                     Ducky Duck
                 </h4>
@@ -165,7 +168,7 @@
 
             <!-- Start: Third Card -->
             <div class="card-fifth">
-                <img src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/07" alt="run the gun">
+                <img class="img-fifth" src="https://dicoding-restaurant-api.el.r.appspot.com/images/medium/07" alt="restaurant run the gun">
                 <h4 class="h4-judul-black">
                     Run The Gun
                 </h4>
