@@ -27,6 +27,20 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
 /*
 Hamburger Menu
 */
@@ -143,7 +157,7 @@ Header
 First Section
 */
 .bg-img{
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../public/images/heros/hero-image_1.jpg");
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.65)), url("../public/images/heros/hero-image_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,6 +223,10 @@ Second Section
     margin-bottom: 3em;
 }
 
+.appstore {
+    width: 50%;
+}
+
 /*
 Third Section
 */
@@ -229,10 +247,10 @@ Third Section
 
 .grid-third {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33% 34% 33%;
 }
 
-.icon-fourth {
+.icon-third {
     margin: 0 3em;
 }
 
@@ -288,11 +306,16 @@ Fifth Section
     padding: 3em 0;
 }
 
-.flex-fifth {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 6em 6em;
+.grid-fifth {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 6em;
+}
+
+.img-fifth {
+    height: 14em;
+    background-position: center;
+    background-size: cover;
 }
 
 .h4-judul-black {
@@ -428,7 +451,6 @@ Tablet Third Section
     }
 
     .grid-third {
-
         align-items: top;
     }
 
@@ -444,6 +466,25 @@ Tablet Third Section
     .img-daily {
         margin: 0 0 0 1em;
     }
+
+/*
+Tablet Fifth Section
+*/
+
+    .h2-judul-fourth {
+        padding-top: 1em;
+    }
+
+    .grid-fifth {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 3em 0;
+    }
+
+    .card-fifth {
+        margin-top: 3em;
+    }
+
 }
 
 /* 
@@ -452,5 +493,83 @@ Mobile
 
 @media screen and (max-width: 360px)
 {
-    
+    .container {
+        padding: 0 .2em;
+        align-items: center;
+    }
+
+    .mh-logo {
+        width: 70%;
+        padding: 0 .2em;
+    }
+
+    .menu-toggle {
+        padding: 0 1em;
+    }
+
+/*
+Mobile First Section
+*/
+
+    .second {
+        line-height: 1.25em;
+    }
+
+/*
+Mobile Second Section
+*/
+
+    .sec-second {
+        grid-template-columns: 100%;
+    }
+
+    .img-sec-second {
+        width: 100%;
+    }
+
+    .container-img-second {
+        grid-area: 2 / 1 / 2 / 1;
+        padding-top: 3em;
+    }
+
+    .appstore {
+        width: 85%;
+    }
+
+/*
+Mobile Third Section
+*/
+
+    .h2-judul-third {
+        padding-bottom: 0;
+    }
+
+    .grid-third {
+        grid-template-columns: 100%;
+    }
+
+    .icon-third {
+        padding-top: 3em;
+    }
+
+/*
+Mobile Fourth Section
+*/
+
+    .grid-fourth {
+        grid-template-columns: 100%;
+    }
+
+    .img-tech {
+        margin: 3em 0 0 0;
+    }
+
+/*
+Mobile Fifth Section
+*/
+
+    .grid-fifth {
+        grid-template-columns: 100%;
+    }
+
 }
