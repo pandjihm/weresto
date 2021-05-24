@@ -177,6 +177,7 @@ First Section
     font-family: Newsreader;
     font-size: 2.8em;
     text-align: center;
+    justify-content: center;
     padding: 3.5em 0 1.5em 0;
 }
 
