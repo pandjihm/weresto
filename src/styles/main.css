@@ -308,6 +308,14 @@ Fifth Section
     padding: 3em 0;
 }
 
+.h2-judul-fifth {
+    font-family: "Newsreader", serif;
+    font-size: 2.5em;
+    color: #212121;
+    margin: .5em 0 0 0;
+    text-align: center;
+}
+
 .grid-fifth {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -329,11 +337,15 @@ Fifth Section
 .p-fifth {
     line-height: 1.5em;
     margin: 1em 1.3em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 
 .card-fifth {
     background-color: #FFF;
-    margin: 0 2em;
+    margin: 2em 2em;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
