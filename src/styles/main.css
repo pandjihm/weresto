@@ -53,6 +53,7 @@ Hamburger Menu
     position: relative;
     background-color: #212121;
     border: 0;
+    cursor: pointer;
     z-index: 30;
 }
 
@@ -404,6 +405,7 @@ Tablet
     body {
         overflow-x: hidden;
     }
+    
 
     .menu-toggle {
         display: flex;
