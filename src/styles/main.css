@@ -48,8 +48,11 @@ Hamburger Menu
 .menu-toggle {
     display: none;
     flex-direction: column;
-    height: 1.6em;
-    justify-content: space-between;
+    height: 3.5em;
+    width: 3.5em;
+    padding: 0.6em 0;
+    justify-content: space-around;
+    align-items: center;
     position: relative;
     background-color: #212121;
     border: 0;
@@ -60,9 +63,7 @@ Hamburger Menu
 .menu-toggle input {
     position: absolute;
     width: 3.5em;
-    height: 3em;
-    left: -0.5em;
-    top: -0.5em;
+    height: 3.5em;
     opacity: 0;
     cursor: pointer;
     z-index: 20;
@@ -97,7 +98,7 @@ Hamburger Menu Animation
 }
 
 .menu-toggle input:checked ~ span:nth-child(4) {
-    transform: rotate(-45deg) translate( -0.5px, 1px);
+    transform: rotate(-45deg) translate( 0.5px, 0.5px);
 }
 
 /*
