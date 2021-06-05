@@ -119,6 +119,10 @@ Header
     cursor: pointer;
 }
 
+.a-logo {
+    padding: 1em 0 0.45em 0;
+}
+
 .container {
     max-width: 100%;
     height: 5em;
@@ -155,6 +159,7 @@ Header
 .main-nav-list a:hover {
     color: #EEC32A;
 }
+
 
 /*
 First Section
@@ -325,7 +330,7 @@ Fifth Section
 }
 
 .img-fifth {
-    height: 14em;
+    height: auto;
     background-position: center;
     background-size: cover;
 }
@@ -413,7 +418,7 @@ Tablet
     }
 
     nav ul {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         width: 100%;
